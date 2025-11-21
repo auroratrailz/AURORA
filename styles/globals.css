@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --forest-900:#0B3A2E;
+  --forest-700:#11614D;
+  --earth-500:#C9B69F;
+  --warm-400:#E8D8C2;
+  --accent:#8CBF6E;
+  --muted:#6C6C6C;
+  --bg:#FFF9F4;
+  --radius:12px;
+  --transition:200ms cubic-bezier(.2,.9,.3,1);
+  --font-sans:Inter,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial;
+  --font-serif:'Cormorant Garamond', Georgia, serif;
+}
+
+html,body,#__next{height:100%}
+body{
+  background:var(--bg);
+  color:var(--forest-900);
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-family:var(--font-sans);
+}
+
+.container{max-width:1200px;margin:0 auto;padding:0 1rem}
+.hero{display:flex;align-items:center;gap:2rem;padding:3rem 0}
+.title{font-family:var(--font-serif);font-size:clamp(28px,6vw,48px);line-height:1.02}
+.btn-cta{background:var(--forest-700);color:white;padding:0.9rem 1.4rem;border-radius:8px;transition:transform var(--transition)}
+.btn-cta:hover{transform:translateY(-4px)}
+.card{background:white;border-radius:var(--radius);box-shadow:0 6px 22px rgba(4,14,20,0.08);overflow:hidden}

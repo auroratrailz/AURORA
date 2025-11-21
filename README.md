@@ -1,4 +1,3 @@
-```markdown
 # AURORA — Aurora Trails Website
 
 This repository will host the Aurora Trails website (Wayanad, Kerala) — a premium, eco-focused tourism site.

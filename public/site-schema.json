@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "Aurora Trails",
+  "url": "https://auroratrails.example.com",
+  "logo": "https://auroratrails.example.com/images/logo.png",
+  "description": "Aurora Trails — premium eco-tourism and curated experiences in Wayanad, Kerala.",
+  "telephone": "+919778246052",
+  "email": "auroratrailz@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Wayanad",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.instagram.com/aurora__trails"
+  ]
+}
